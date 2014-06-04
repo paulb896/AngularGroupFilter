@@ -2,7 +2,7 @@ AngularGroupFilter
 ==================
 
 
-Angular.js project, with an example use of a filter that groups a set of of values in pairs of objects.
+Angular.js project, with an example use of a filter that groups a set of of values into pairs of objects.
 
 
 ##Example using ng-repeat attribute
@@ -14,7 +14,7 @@ $scope.characterPointsMap = {
   sonic: 2239,
   mario: 3001,
   bucky: 4324,
-  link: 3233
+  link:  3233
 };
 ```
 
