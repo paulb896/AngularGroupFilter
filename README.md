@@ -2,7 +2,7 @@ AngularGroupFilter
 ==================
 
 
-Angular.js project, with an example use of a filter that groups a set of of values into pairs of objects.
+Angular.js project, with an example use of a filter that groups a set of values, into pairs of objects.
 
 
 ##Example using ng-repeat attribute
