@@ -1,0 +1,22 @@
+<html lang="en" ng-app="stuffApp">
+<head>
+
+</head>
+<body ng-controller="stuffController" ng-init="initialize()">
+    <table>
+        <tr ng-repeat="(key, stuff) in stuffToRepeat | groupByTwo" ng-show="$even">
+            <td>
+                {{stuff[0].key}}
+                {{stuff[0].value}}
+            </td>
+            <td>
+                {{stuff[1].key}}
+                {{stuff[1].value}}
+            </td>
+        </tr>
+    </table>
+<script src="angular.js"></script>
+<script src="angular-resource.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
